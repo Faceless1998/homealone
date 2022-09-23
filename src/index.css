@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("//cdn.web-fonts.ge/fonts/bpg-arial/css/bpg-arial.min.css");
+
 body {
   margin: 0;
   padding: 0;
@@ -13,6 +15,10 @@ body {
 
   background-color: #F7FBFF;
   cursor: none;
+}
+
+*{
+  font-family: "BPG Arial", sans-serif!important;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

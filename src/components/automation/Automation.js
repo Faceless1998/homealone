@@ -18,10 +18,22 @@ import logoprod15 from './../../assets/aliance.jpg'
 import logoprod16  from './../../assets/real palace.jpg'
 import logoprod17  from './../../assets/star palace.jpg'
 import logoprod18  from './../../assets/sunrise development.jpg'
+import { useTranslation } from "react-i18next";
+
 export const Automation = () => {
   useEffect(() => {});
-
+  const { t } = useTranslation();
   return (
+    <>
+<div className="single-div" style={{ marginTop: 10 }}>
+        <h1
+          className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer"
+          style={{ textTransform: "capitalize" }}
+        >
+          {t("our partners")}
+        </h1>
+      </div>
+
     <div>
       <div>
         <Autslides
@@ -100,5 +112,6 @@ export const Automation = () => {
         />
       </div>
     </div>
+    </>
   );
 };
