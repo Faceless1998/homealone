@@ -28,7 +28,7 @@ export const Installment = () => {
             content: "";
             top: 0;
             left: 0;
-            right: 3rem;
+            right: 3rem; 
             bottom: 3rem;
             border: 5px solid #2EB872;
           }
@@ -265,6 +265,12 @@ export const Installment = () => {
           }        `,
         }}
       />
+        <div class="container-fluid page-header py-5 mb-5 wow fadeIn">
+        <div class="container py-5">
+            <h1 class="display-1 text-white animated slideInDown">{t("Installment")}</h1>
+        </div>
+    </div>
+          
  <div className="container-xxl py-5">
     <div className="container">
       <div className="row g-5">

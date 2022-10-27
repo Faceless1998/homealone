@@ -12029,7 +12029,7 @@ fieldset:disabled .btn {
   text-align: center;
   transition: 1s;
   z-index: 0;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .container .carddep:hover .contentBx {

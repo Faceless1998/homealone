@@ -26,24 +26,24 @@ export const Autslides = ({ ProductList }) => {
     <>
       <div className="owl-prod-cont">
         <Marquee behavior="slide" direction="left" speed="100">
-          <img src={logoprod1} width="300" height="200" alt="Natural" />
-          <img src={logoprod2} width="300" height="200" alt="Natural" />
-          <img src={logoprod3} width="300" height="200" alt="Natural" />
-          <img src={logoprod4} width="300" height="200" alt="Natural" />
-          <img src={logoprod5} width="300" height="200" alt="Natural" />
-          <img src={logoprod6} width="300" height="200" alt="Natural" />
-          <img src={logoprod7} width="300" height="200" alt="Natural" />
-          <img src={logoprod8} width="300" height="200" alt="Natural" />
-          <img src={logoprod9} width="300" height="200" alt="Natural" />
-          <img src={logoprod10} width="300" height="200" alt="Natural" />
-          <img src={logoprod11} width="300" height="200" alt="Natural" />
-          <img src={logoprod12} width="300" height="200" alt="Natural" />
-          <img src={logoprod13} width="300" height="200" alt="Natural" />
-          <img src={logoprod14} width="300" height="200" alt="Natural" />
-          <img src={logoprod15} width="300" height="200" alt="Natural" />
-          <img src={logoprod16} width="300" height="200" alt="Natural" />
-          <img src={logoprod17} width="300" height="200" alt="Natural" />
-          <img src={logoprod18} width="300" height="200" alt="Natural" />
+          <img src={logoprod1} width="200" height="150" alt="Natural" />
+          <img src={logoprod2} width="200" height="150" alt="Natural" />
+          <img src={logoprod3} width="200" height="150" alt="Natural" />
+          <img src={logoprod4} width="200" height="150" alt="Natural" />
+          <img src={logoprod5} width="200" height="150" alt="Natural" />
+          <img src={logoprod6} width="200" height="150" alt="Natural" />
+          <img src={logoprod7} width="200" height="150" alt="Natural" />
+          <img src={logoprod8} width="200" height="150" alt="Natural" />
+          <img src={logoprod9} width="200" height="150" alt="Natural" />
+          <img src={logoprod10} width="200" height="150" alt="Natural" />
+          <img src={logoprod11} width="200" height="150" alt="Natural" />
+          <img src={logoprod12} width="200" height="150" alt="Natural" />
+          <img src={logoprod13} width="200" height="150" alt="Natural" />
+          <img src={logoprod14} width="200" height="150" alt="Natural" />
+          <img src={logoprod15} width="200" height="150" alt="Natural" />
+          <img src={logoprod16} width="200" height="150" alt="Natural" />
+          <img src={logoprod17} width="200" height="150" alt="Natural" />
+          <img src={logoprod18} width="200" height="150" alt="Natural" />
         </Marquee>
 
       </div>

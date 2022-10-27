@@ -7,6 +7,8 @@ import { NavLink } from "react-router-dom";
 import image1 from "./../../assets/hotel.png";
 import image2 from "./../../assets/office.png";
 import image3 from "./../../assets/house.png";
+import image4 from "./../../assets/fire-safety-and-security.jpg";
+import image5 from "./../../assets/iStock-1140471667.jpg";
 import { useTranslation } from "react-i18next";
 
 export const Services = () => {
@@ -117,7 +119,7 @@ export const Services = () => {
           {t("SERVICES")}
         </h1>
       </div>
-      <div className="grid-container1" style={{ marginBottom: "30px" }}>
+      <div className="grid-container1" style={{ marginBottom: "30px", marginLeft:"20px" ,marginRight:"20px" }}>
         <div>
           <div
             className="column imageContainer3 vcenter"
@@ -178,6 +180,50 @@ export const Services = () => {
                   style={{ textDecoration: "none", color: "white" }}
                 >
                   {t("Smart Office System")}
+                </NavLink>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="column imageContainer2 vcenter"
+            style={{
+              backgroundColor: "#F7FBFF",
+              backgroundImage: `url(${image4})`,
+              backgroundRepeat: "no-repeat",
+            }}
+          >
+            <div>
+              <div className="anim">
+                {" "}
+                <NavLink
+                  to="/services/smartoffice"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  {t("Fire Security System")}
+                </NavLink>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="column imageContainer2 vcenter"
+            style={{
+              backgroundColor: "#F7FBFF",
+              backgroundImage: `url(${image5})`,
+              backgroundRepeat: "no-repeat",
+            }}
+          >
+            <div>
+              <div className="anim">
+                {" "}
+                <NavLink
+                  to="/services/smartoffice"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  {t("Greenhouse System")}
                 </NavLink>
               </div>
             </div>

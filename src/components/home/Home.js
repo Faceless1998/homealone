@@ -13,6 +13,7 @@ import { Helmet } from "react-helmet";
 import { Automation } from "../automation/Automation.js";
 import { Swiperpages } from "./Swiperpages";
 import { Gifslider } from "./Gifslider";
+import { Topproducts } from "../topproducts/Topproducts";
 
 
 export const Home = () => {
@@ -58,6 +59,8 @@ export const Home = () => {
           <ProductBann />
 
           <Mainservices />
+
+          {/* <Topproducts /> */}
 
           <Gifslider />
 
