@@ -19,16 +19,16 @@ import logoprod16  from './../../assets/real palace.jpg'
 import logoprod17  from './../../assets/star palace.jpg'
 import logoprod18  from './../../assets/sunrise development.jpg'
 import { useTranslation } from "react-i18next";
-
+import './automation.css'
 export const Automation = () => {
   useEffect(() => {});
   const { t } = useTranslation();
   return (
-    <>
-<div className="single-div" style={{ marginTop: 10 }}>
+    <div  style={{ marginTop: -50}}>
+      <div style={{ marginTop:0 }}>
         <h1
-          className="abouttitlewidth2 marginizer  font-bold leading-tight text-center colorizer"
-          style={{ textTransform: "capitalize" }}
+          className="abouttitlewidth2 marginizer1  font-bold leading-tight text-center colorizer"
+          style={{ textTransform: "capitalize", color:'white', fontSize:'20px!important' }}
         >
           {t("our partners")}
         </h1>
@@ -112,6 +112,6 @@ export const Automation = () => {
         />
       </div>
     </div>
-    </>
+    </div>
   );
 };

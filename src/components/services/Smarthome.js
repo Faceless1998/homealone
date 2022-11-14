@@ -374,8 +374,7 @@ export const SmartHome = () => {
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp">
-                    <h4 class="section-title">Why Choose Us!</h4>
-                    <h1 class="display-5 mb-4">Why You Should Trust Us?</h1>
+                    <h1 class="display-5 mb-4">{t("Why You Should Trust Us?")}</h1>
                     <p class="mb-4">{t("homesoltxt1")}</p>
                     <div class="row g-4">
                         <div class="col-12">
