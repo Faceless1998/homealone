@@ -287,16 +287,8 @@ export const Header = () => {
             >
               <div className="full-box-div">
                 <div style={{ display: "flex", flexDirection: "column" }}>
-                  <NavLink
-                    className="nav-item"
-                    activeClassName="nav-active"
-                    to="/products/group/hotel_system"
-                    style={{ textDecoration: "none" }}
-                  >
-                    <p>{t("Hotel System")}</p>
-                  </NavLink>
-
-                  <NavLink
+                  
+                <NavLink
                     className="nav-item"
                     activeClassName="nav-active"
                     to="/products/group/Interaction_Center"
@@ -304,24 +296,7 @@ export const Header = () => {
                   >
                     <p>{t("Interaction Center")}</p>
                   </NavLink>
-                  <NavLink
-                    className="nav-item"
-                    activeClassName="nav-active"
-                    to="/products/group/Smart_Lighting"
-                    style={{ textDecoration: "none" }}
-                  >
-                    <p>{t("Smart Lighting")}</p>
-                  </NavLink>
-                  <NavLink
-                    className="nav-item"
-                    activeClassName="nav-active"
-                    to="/products/group/fire_system"
-                    style={{ textDecoration: "none" }}
-                  >
-                    <p>{t("Fire Security System")}</p>
-                  </NavLink>
-                </div>
-                <div style={{ display: "flex", flexDirection: "column" }}>
+                  
                   <NavLink
                     className="nav-item"
                     activeClassName="nav-active"
@@ -333,29 +308,36 @@ export const Header = () => {
                   <NavLink
                     className="nav-item"
                     activeClassName="nav-active"
+                    to="/products/group/Smart_Lighting"
+                    style={{ textDecoration: "none" }}
+                  >
+                    <p>{t("Smart Lighting")}</p>
+                  </NavLink>
+
+                  <NavLink
+                    className="nav-item"
+                    activeClassName="nav-active"
                     to="/products/group/Smart_R+T"
                     style={{ textDecoration: "none" }}
                   >
                     <p>{t("Smart Curtain")}</p>
                   </NavLink>
+                  
+
+                </div>
+                <div style={{ display: "flex", flexDirection: "column" }}>
+                  
+                  
                   <NavLink
                     className="nav-item"
                     activeClassName="nav-active"
                     to="/products/group/Smart_HVAC"
                     style={{ textDecoration: "none" }}
                   >
-                    <p>{t("Temperature Control")}</p> 
+                    <p>{t("Smart HVAC")}</p> 
                   </NavLink>
-                  <NavLink
-                    className="nav-item"
-                    activeClassName="nav-active"
-                    to="/products/group/greenhouse_system"
-                    style={{ textDecoration: "none" }}
-                  >
-                    <p>{t("Greenhouse System")}</p>
-                  </NavLink>
-                </div>
-                <div style={{ display: "flex", flexDirection: "column" }}>
+
+
                   <NavLink
                     className="nav-item"
                     activeClassName="nav-active"
@@ -380,6 +362,39 @@ export const Header = () => {
                   >
                     <p>{t("Audio Products")}</p>
                   </NavLink>
+
+
+
+                </div>
+                <div style={{ display: "flex", flexDirection: "column" }}>
+                  <NavLink
+                    className="nav-item"
+                    activeClassName="nav-active"
+                    to="/products/group/hotel_system"
+                    style={{ textDecoration: "none" }}
+                  >
+                    <p>{t("Hotel System")}</p>
+                  </NavLink>
+
+                  <NavLink
+                    className="nav-item"
+                    activeClassName="nav-active"
+                    to="/products/group/greenhouse_system"
+                    style={{ textDecoration: "none" }}
+                  >
+                    <p>{t("Greenhouse System")}</p>
+                  </NavLink>
+
+                  <NavLink
+                    className="nav-item"
+                    activeClassName="nav-active"
+                    to="/products/group/fire_system"
+                    style={{ textDecoration: "none" }}
+                  >
+                    <p>{t("Fire Security System")}</p>
+                  </NavLink>
+
+                  
                 </div>
                 <div
                   className="products-right"

@@ -1,7 +1,7 @@
 import React from "react";
 import "./AuroraSeries.css";
 // import { Footer } from './../footer/Footer'
-
+import image1 from './../../assets/bg1-28694389df.jpg'
 export const AuroraSeries = () => {
   return (
     <div>
@@ -35,7 +35,7 @@ export const AuroraSeries = () => {
       />
       <section className="jg_sec1">
         <img
-          src="https://static.orvibo.com/guanwang_second/front/images/new/products/jiguang/bg1-28694389df.jpg"
+          src={image1}
           alt=""
         />
         <div className="s1_con">

@@ -1,4 +1,4 @@
-.sec__desc,
+/* .sec__desc,
 .sec__title {
   font-family: PingFang SC;
   text-align: center;
@@ -43,12 +43,6 @@
   }
 }
 
-/* @media (min-width: 1360px) and (max-width: 1760px) {
-  html {
-    font-size: calc((100vw - 160px) / 16);
-  }
-} */
-
 @media screen and (max-width: 1360px) {
   html {
     font-size: 75px;
@@ -83,7 +77,7 @@
 .camera__container .camera__banner {
   position: relative;
   height: 10.33rem;
-  background-image: url(banner-e7b3fa8eaf.png);
+  background-image: url(../../assets/banner-e7b3fa8eaf.png);
 }
 
 .camera__container .camera__banner .banner__content {
@@ -126,7 +120,7 @@
   margin-top: 2.35rem;
   width: 3.37rem;
   height: 0.5rem;
-  background-image: url(banner_logo-221925fbc6.png);
+  background-image: url(../../assets/banner_logo-221925fbc6.png);
 }
 
 .camera__container .sec1 {
@@ -288,7 +282,7 @@
   z-index: 5;
   width: 0.56rem;
   height: 0.82rem;
-  background-image: url(sec4_4-ab094f1782.png);
+  background-image: url(../../assets/sec4_4-ab094f1782.png);
 }
 
 .camera__container .sec4 .right__bg {
@@ -373,7 +367,7 @@
   z-index: 5;
   width: 1.69rem;
   height: 1.69rem;
-  background-image: url(icon_arrow-445ec5fa28.png);
+  background-image: url(../../assets/icon_arrow-445ec5fa28.png);
 }
 
 .camera__container .sec5 .arrow__text {
@@ -636,7 +630,7 @@
   bottom: -3rem;
   width: 100%;
   height: 5.73rem;
-  background: url(sec12_bg-51eeb37d3c.png) center/cover no-repeat;
+  background: url(../../assets/sec12_bg-51eeb37d3c.png) center/cover no-repeat;
   z-index: 10;
 }
 
@@ -925,4 +919,4 @@
   font-weight: 800;
   line-height: 0.48rem;
   color: #fff;
-}
+} */
