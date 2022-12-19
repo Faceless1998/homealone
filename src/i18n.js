@@ -153,7 +153,12 @@ const resources = {
       "Other type of products" : "Other type of products" ,
       "Properties" : "Properties" ,
       "Description" : "Description" ,
-      "our partners" : "Our Partners"
+      "our partners" : "Our Partners",
+      "Documentation" : "Documentation",
+      "Our Official Product list, Design for costumers and its need" : "Our Official Product list, Design for costumers and its need",
+      "Download" : "Download",
+      "Watch Online" : "Watch Online"
+
     }
   },
   ge: {
@@ -194,7 +199,7 @@ const resources = {
       "Smart Lighting" : "განათების მართვის ჭკვიანი სისტემა" ,
       "Home Security" : "ჭკვიანი დაცვის სისტემა" ,
       "Smart Curtain" : "ფარდის მართვის ჭკვიანი სისტემა" ,
-      "Temperature Control" : "ტემპერატურის და ტენიანობის მართვის ჭკვიანი სისტემა" ,
+      "Smart HVAC" : "ტემპერატურის და ტენიანობის მართვის ჭკვიანი სისტემა" ,
       "Home Entertaiment" : "ელექტრონული ტექნიკის ჭკვიანი მართვის სისტემა" ,
       "Domestic Appliances" : "ჭკვიანი საყოფაცხოვრებო ტექნიკა" ,
       "Audio Products" : "ჭკვიანი აუდიო სისტემა" ,
@@ -307,7 +312,11 @@ const resources = {
       "Other type of products" : "სხვა პროდუქტები" ,
       "Properties" : "ტექნიკური მახასიათებელი" ,
       "Description" : "აღწერა" ,
-      "our partners" : "პარტნიორები"
+      "our partners" : "პარტნიორები",
+      "Documentation" : "დოკუმენტაცია",
+      "Our Official Product list, Design for costumers and its need" : "ჩვენი ოფიციალური პროდუქტების სია",
+      "Download" : "გადმოწერა",
+      "Watch Online" : "გახსნა"
     }
   },
   ru: {
@@ -348,7 +357,7 @@ const resources = {
       "Smart Lighting" : "Умное Освещение" ,
       "Home Security" : "Умная Домашняя безопасность" ,
       "Smart Curtain" : "Умная стойка для штор" ,
-      "Temperature Control" : "Умный Мониторинг температуры" ,
+      "Smart HVAC" : "Умный Мониторинг температуры" ,
       "Home Entertaiment" : "Умный Домашние развлечения" ,
       "Domestic Appliances" : "Умная Домашная техника" ,
       "Audio Products" : "Умный Аудио продукты" ,
@@ -461,7 +470,12 @@ const resources = {
       "Other type of products" : "Другой вид продукции" ,
       "Properties" : "Характеристики" ,
       "Description" : "Описание" ,
-      "our partners" : "Наши Партнеры"
+      "our partners" : "Наши Партнеры",
+      "Documentation" : "Документация",
+      "Our Official Product list, Design for costumers and its need" : "Наш официальный список продуктов, Дизайн для клиентов и его потребности",
+      "Download" : "Скачать",
+      "Watch Online" : "Смотреть онлайн"
+
     }
   }
 };

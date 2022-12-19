@@ -504,7 +504,16 @@ export const Header = () => {
                       {t("Gallery")}
                     </NavLink>
                   </p>
-
+                  <p>
+                    <NavLink
+                      className="insidemenu-nav-item"
+                      activeClassName="nav-active"
+                      to="/document/Documentation"
+                      style={{textTransform: 'capitalize' }}
+                    >
+                      {t("Document")}
+                    </NavLink>
+                  </p>
                   {/* <p>
                     <NavLink
                       className="insidemenu-nav-item"

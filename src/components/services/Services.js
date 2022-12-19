@@ -198,7 +198,7 @@ export const Services = () => {
               <div className="anim">
                 {" "}
                 <NavLink
-                  to="/services/smartoffice"
+                  to="/services/Notdone"
                   style={{ textDecoration: "none", color: "white" }}
                 >
                   {t("Fire Security System")}
@@ -220,7 +220,7 @@ export const Services = () => {
               <div className="anim">
                 {" "}
                 <NavLink
-                  to="/services/smartoffice"
+                  to="/services/Notdone"
                   style={{ textDecoration: "none", color: "white" }}
                 >
                   {t("Greenhouse System")}

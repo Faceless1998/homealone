@@ -21,10 +21,13 @@ import { Gallery } from "./components/gallery/Gallery";
 import { SmartHome } from "./components/services/Smarthome";
 import { SmartOffice } from "./components/services/Smartoffice";
 import { SmartHotel } from "./components/services/Smarthotel";
+import {Notdone} from "./components/services/Notdone"
 import { Installment } from "./components/services/Installment";
 import { ShowRoom } from "./components/showroom/Showroom";
 import { PartnerPage } from "./components/partners/singlepartner";
 import { Faq } from "./components/FAQ/Faq";
+import { Documentation } from "./components/document/Documentation";
+import { Openfile } from "./components/document/Openfile";
 
 function App() {
   const [isMobile, setMobile] = useState(false);
@@ -85,6 +88,7 @@ function App() {
           <Route exact path="/news" component={News} />
           <Route exact path="/about/partners" component={Partners} />
           <Route exact path="/services/smarthome" component={SmartHome} />
+          <Route exact path="/services/Notdone" component={Notdone} />
           <Route exact path="/services/smartoffice" component={SmartOffice} />
           <Route exact path="/services/smarthotel" component={SmartHotel} />
           <Route exact path="/services/installment" component={Installment} />
@@ -92,6 +96,8 @@ function App() {
           <Route exact path="/showroom/showroom" component={ShowRoom} />
           <Route exact path="/test-system" component={TestYourHome} />
           <Route exact path="/about/faq" component={Faq} />
+          <Route exact path="/document/documentation" component={Documentation} />
+          <Route exact path="/document/Openfile" component={Openfile} />
           <Route path="/about/partners/:id" component={PartnerPage} />
         </Switch>
       </div>
