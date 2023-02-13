@@ -5,23 +5,14 @@ import "swiper/swiper.min.css";
 import "swiper/components/pagination/pagination.min.css";
 import "swiper/components/navigation/navigation.min.css";
 
-import engvideo from "./../../assets/eng full.mp4";
-import geovideo from "./../../assets/geo full.mp4";
-import ruvideo from "./../../assets/ru full.mp4";
+import video from "./../../assets/nan1.mp4";
 
 import SwiperCore, { Pagination, Navigation } from "swiper/core";
 SwiperCore.use([Pagination, Navigation]);
 
 export const BannerCarousel = () => {
-  let bckVideo;
-  if (localStorage.getItem("lang") === "ru") {
-    bckVideo = ruvideo;
-  } else if (localStorage.getItem("lang") === "ge") {
-    bckVideo = geovideo;
-  } else {
-    bckVideo = engvideo;
-  }
-  const Banners = [{ id: 1, img: bckVideo, name: "banner1" }];
+
+  const Banners = [{ id: 1, img: video, name: "banner1" }];
 
   const RenderBanners = () => {
     return (

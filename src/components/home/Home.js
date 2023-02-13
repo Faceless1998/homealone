@@ -26,7 +26,6 @@ export const Home = () => {
     }, 700);
   }, []);
 
-  window.scrollTo(0, 100);
 
   return (
     <>

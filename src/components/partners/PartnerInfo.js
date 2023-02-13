@@ -334,12 +334,12 @@ export const options = [
     CompanyName: "Metro City Complex",
     img1: INSIDE47,
     img2: INSIDE48,
-  describtioneng:
-  "Metro City is fast growing development company at real estate market of Georgian. Our primary objective is not only the high quality construction and development of social infrastructure, but also timely occupation and post-sales maintenance. Metro City team not only builds the felicity, but makes it affordable for you.",
-describtionru:
-  "Метро Сити это одна из ведущих и быстро развивающих девелоперских компаний на рынке. Деятельность компании направлена на создание уникальных жилых комплексов отличающихся своей инновационностью, смарт - подходом и высоким качеством. Наша основная задача заключается не только в качественной постройке и развитии социальной инфраструктуры, но и в своевременном заселении и послепродажном обслуживании.",
-describtiongeo:
-  'მეტრო სითი სწრაფი და მზარდი განვითარების კომპანიაა საქართველოს უძრავი ქონების ბაზარზე. ჩვენი ძირითადი მიზანია არა მხოლოდ მაღალი ხარისხის მშენებლობა და სოციალური ინფრასტრუქტურის განვითარება, არამედ გაყიდვების შემდგომი მოვლა.',
+    describtioneng:
+      "Metro City is fast growing development company at real estate market of Georgian. Our primary objective is not only the high quality construction and development of social infrastructure, but also timely occupation and post-sales maintenance. Metro City team not only builds the felicity, but makes it affordable for you.",
+    describtionru:
+      "Метро Сити это одна из ведущих и быстро развивающих девелоперских компаний на рынке. Деятельность компании направлена на создание уникальных жилых комплексов отличающихся своей инновационностью, смарт - подходом и высоким качеством. Наша основная задача заключается не только в качественной постройке и развитии социальной инфраструктуры, но и в своевременном заселении и послепродажном обслуживании.",
+    describtiongeo:
+      'მეტრო სითი სწრაფი და მზარდი განვითარების კომპანიაა საქართველოს უძრავი ქონების ბაზარზე. ჩვენი ძირითადი მიზანია არა მხოლოდ მაღალი ხარისხის მშენებლობა და სოციალური ინფრასტრუქტურის განვითარება, არამედ გაყიდვების შემდგომი მოვლა.',
 },
 ];
 

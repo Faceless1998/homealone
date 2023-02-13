@@ -108,8 +108,8 @@ const resources = {
       "Solutions" : "Solutions" ,
       "becpart" : "Become Our Partner" ,
       "CEO" : "Top Management" ,
-      "CTO" : "CTO" ,
-      "CEO And Co-founder" : " CEO" ,
+      "CTO" : "CTO And Co-founder" ,
+      "CEO And Co-founder" : "CEO And Co-founder" ,
       "Marketing" : " Marketing" ,
       "Marketing Manager" : " Marketing Manager" ,
       "Social Media Manager" : " Social Media Manager" ,
@@ -157,7 +157,12 @@ const resources = {
       "Documentation" : "Documentation",
       "Our Official Product list, Design for costumers and its need" : "Our Official Product list, Design for costumers and its need",
       "Download" : "Download",
-      "Watch Online" : "Watch Online"
+      "Watch Online" : "Watch Online",
+      "Nanuka":"Nanuka",
+      "Gorgiladze":"Gorgiladze",
+      "Mariam":"Mariam",
+      "Abuselidze":"Abuselidze",
+      "Web Administrator":"Web Administrator"
 
     }
   },
@@ -257,8 +262,8 @@ const resources = {
       "Solutions" : "სისტემები" ,
       "becpart" : "გახდი ჩვენი პარტნიორი" ,
       "CEO" : "ტოპ მენეჯმენტი" ,
-      "CTO" : "ტექნიკური დირექტორი" ,
-      "CEO And Co-founder" : "აღმასრულებელი დირექტორი" ,
+      "CTO" : "ტექნიკური დირექტორი და თანადამფუძნებელი" ,
+      "CEO And Co-founder" : "აღმასრულებელი დირექტორი და თანადამფუძნებელი" ,
       "Marketing" : " მარკეტინგი" ,
       "Marketing Manager" : " მარკეტინგის მენეჯერი" ,
       "Social Media Manager" : " სოც. მედიის მენეჯერი" ,
@@ -316,7 +321,12 @@ const resources = {
       "Documentation" : "დოკუმენტაცია",
       "Our Official Product list, Design for costumers and its need" : "ჩვენი ოფიციალური პროდუქტების სია",
       "Download" : "გადმოწერა",
-      "Watch Online" : "გახსნა"
+      "Watch Online" : "გახსნა",
+      "Nanuka":"ნანუკა",
+      "Gorgiladze":"გორგილაძე",
+      "Mariam":"მარიამ",
+      "Abuselidze":"აბუსელიძე",
+      "Web Administrator":"საიტის ადმინისტრატორი"
     }
   },
   ru: {
@@ -415,9 +425,9 @@ const resources = {
       "Solutions" : "Решения" ,
       "becpart" : "Станьте нашим партнером" ,
       "CEO" : "Высшее руководство" ,
-      "CTO" : "Технический менеджер" ,
+      "CTO" : "Технический менеджер и основатель" ,
       "Video Grapher" : "Видеограф" ,
-      "CEO And Co-founder" : "Генеральный директор" ,
+      "CEO And Co-founder" : "Генеральный директор и основатель" ,
       "Marketing" : "Маркетинг" ,
       "Marketing Manager" : "Менеджер по маркетингу" ,
       "Social Media Manager" : "Менеджер социальных сетей" ,
@@ -474,7 +484,12 @@ const resources = {
       "Documentation" : "Документация",
       "Our Official Product list, Design for costumers and its need" : "Наш официальный список продуктов, Дизайн для клиентов и его потребности",
       "Download" : "Скачать",
-      "Watch Online" : "Смотреть онлайн"
+      "Watch Online" : "Смотреть онлайн",
+      "Nanuka":"Нанука",
+      "Gorgiladze":"Горгиладзе",
+      "Mariam":"Мариам",
+      "Abuselidze":"Абуселидзе",
+      "Web Administrator":"Веб-администратор"
 
     }
   }
