@@ -41,7 +41,7 @@ function App() {
       setMobile(false);
     }
   };
-
+  
   useEffect(() => {
     window.addEventListener("resize", handleResize);
     handleResize();

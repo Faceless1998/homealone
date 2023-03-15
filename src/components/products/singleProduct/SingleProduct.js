@@ -9,9 +9,9 @@ import React, { useEffect, useState } from "react";
 
 // import { Swiper, SwiperSlide } from "swiper/react";
 
-import "swiper/swiper.min.css";
-import "swiper/components/pagination/pagination.min.css";
-import "swiper/components/navigation/navigation.min.css";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 import SwiperCore, { Pagination, Navigation } from "swiper/core";
 // import { ProductTypesCarousel } from "../../carousels/ProductTypesCarousel";

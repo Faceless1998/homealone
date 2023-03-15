@@ -48,20 +48,36 @@ export const Products = () => {
   }, []);
 
   const listItems = data.map((item) => (
-    <NavLink to={`/products/${item._id}`} style={{ textDecoration: "none" }}>
-      <div className="card" key={item.id}>
-        <div className="card_img">
-          <img
-            src={`${apiJSON.API_URL}public/images/` + item.mainImage}
-            alt=""
-          />
+   
+<div className="card" key={item.id}>
+      <div className="newproduct-card">
+        <div className="newbadge">Hot</div>
+        <div className="newproduct-tumb">
+          <img src={`${apiJSON.API_URL}public/images/` + item.mainImage} alt="" className="newprodimager" />
         </div>
-        <div className="card_header">
-          <h2>{item.name}</h2>
-          {/* <p>{item.description}</p> */}
+        <div className="newproduct-details">
+          <span className="newproduct-catagory">{item.type}</span>
+          <h4 className="newprodtitle">{item.name}</h4>
+          <div className="newproduct-bottom-details">
+          <NavLink to={`/products/${item._id}`} style={{ textDecoration: "none" }} className="newestmyButton linknav" >Learn More</NavLink>
+          </div>
         </div>
       </div>
-    </NavLink>
+</div>
+      
+      // <div className="card" key={item.id}>
+      //   <div className="card_img">
+      //     <img
+      //       src={`${apiJSON.API_URL}public/images/` + item.mainImage}
+      //       alt=""
+      //     />
+      //   </div>
+      //   <div className="card_header">
+      //     <h2>{item.name}</h2>
+          //  <p>{item.description}</p>
+    //     </div>
+    //   </div>
+    // </NavLink>
   ));
   return (
     <>

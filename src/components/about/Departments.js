@@ -3,10 +3,10 @@ import "./About.css";
 
 import IMG1 from "./../../assets/241261132_1863637503809892_4035385193378907772_n.jpg";
 import IMG2 from "./../../assets/240389366_5031814000178606_5407943068340778411_n.jpg";
-import IMG3 from "./../../assets/18423189_1455984187778771_3259540577915865490_o.jpg"; //mari
+// import IMG3 from "./../../assets/18423189_1455984187778771_3259540577915865490_o.jpg"; //mari
 import IMG4 from "./../../assets/245051853_4013007205471453_3028106217623954854_n.jpg";
 import IMG5 from "./../../assets/109803647_3404564399587947_6244733945744512342_n.jpg";
-import IMG6 from "./../../assets/khvichasurm.jpg"; //nanuka
+// import IMG6 from "./../../assets/khvichasurm.jpg"; //nanuka
 import IMG7 from "./../../assets/74226527_2893185477372846_2201737228206473216_n.jpg";
 import IMG8 from "./../../assets/88c41e34-960c-46dc-a9be-3f82c698ba8c.jpg";
 
