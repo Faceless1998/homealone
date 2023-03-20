@@ -5,7 +5,6 @@ import { Home } from "./components/home/Home";
 import { Route, Switch } from "react-router-dom";
 import { useEffect } from "react";
 import { useState } from "react";
-
 import { MobileHeader } from "./components/header/MobileHeader";
 import { Contact } from "./components/contact/Contact";
 import { Products } from "./components/products/Products";
@@ -76,7 +75,6 @@ function App() {
         ) : (
           <MobileHeader />
         )}
-
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/products" component={Products} />
@@ -104,5 +102,4 @@ function App() {
     </>
   );
 }
-
 export default App;
