@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 import { MdLocationPin } from "react-icons/md";
 import { MdMarkunreadMailbox } from "react-icons/md";
 import { MdPermPhoneMsg } from "react-icons/md";
-export const Footer = () => {
+export const Footer = () => { 
   const { t } = useTranslation();
   return (
     <>
@@ -211,10 +211,10 @@ export const Footer = () => {
                     <li>
                       <MdPermPhoneMsg fontSize="30px" />
                       <div className="content1">
-                        <a href="tel:+995577410510">+995 577 410 510</a>
+                        <a href="tel:+995577410510">+995 577 97 88 62</a>
                       </div>
                       <div className="content1">
-                        <a href="tel:+995577410510">+995 577 77 00 90</a>
+                        <a href="tel:+995577410510">+995 593 60 71 17</a>
                       </div>
                     </li>
                     <li>

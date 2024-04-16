@@ -13,7 +13,7 @@
  
  import { FaWhatsapp } from "react-icons/fa";
  import { useTranslation } from "react-i18next";
- 
+  
  import "./constacts.scss";
  export const Contact = () => {
    const { t } = useTranslation();
@@ -99,8 +99,8 @@
                          </li>
                          <li>
                            <MdPermPhoneMsg fontSize="30px" />
-                           <div className="content1" style={{color: "black"}}>+995 577 410 510</div>
-                           <div className="content1" style={{color: "black"}}>+995 577 77 00 90</div>
+                           <div className="content1" style={{color: "black"}}>+995 577 97 88 62</div>
+                           <div className="content1" style={{color: "black"}}>+995 593 60 71 17</div>
                          </li>
                        </ul>   
                        
